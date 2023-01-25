@@ -688,24 +688,23 @@
         </div>
       </div>
     </footer>
-    <div class="modal is-hidden" data-modal>
-      <div class="modal-window">
-        <button class="modal-close-button" data-modal-close>
-          <svg class="icon-close-button">
+    <!-- modal form -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal__close-button" data-modal-close>
+          <svg class="modal__icon-close-button">
             <use
               href="./images/icons/icons.svg#icon-close-black-18dp-2-1"
             ></use>
           </svg>
         </button>
-
-        <!-- modal form -->
-        <h3 class="modal-form-title">Zostaw swoje dane w formularzu</h3>
+        <h3 class="modal__header">Zostaw swoje dane w formularzu</h3>
         <form class="modal-form">
-          <label class="modal-label" for="user_name"
+          <label class="modal-form__label" for="user_name"
             >Imie
-            <span class="modal-field">
+            <span class="modal-form__field">
               <input
-                class="modal-input"
+                class="modal-form__input"
                 type="text"
                 name="name"
                 id="user_name"
@@ -713,51 +712,51 @@
                 maxlength="15"
                 required
               />
-              <svg class="modal-form-icons" width="18px" height="18px">
+              <svg class="modal-form__icon" width="18px" height="18px">
                 <use
                   href="./images/icons/icons.svg#icon-person-black-18dp-1"
                 ></use>
               </svg>
             </span>
           </label>
-          <label class="modal-label" for="user_telephone"
+          <label class="modal-form__label" for="user_telephone"
             >Telefon
-            <span class="modal-field">
+            <span class="modal-form__field">
               <input
-                class="modal-input"
+                class="modal-form__input"
                 type="tel"
                 name="telephone"
                 id="user_telephone"
                 required
               />
-              <svg class="modal-form-icons" width="18px" height="18px">
+              <svg class="modal-form__icon" width="18px" height="18px">
                 <use
                   href="./images/icons/icons.svg#icon-phone-black-18dp-1"
                 ></use>
               </svg>
             </span>
           </label>
-          <label class="modal-label" for="user_email"
+          <label class="modal-form__label" for="user_email"
             >Email
-            <span class="modal-field">
+            <span class="modal-form__field">
               <input
-                class="modal-input"
+                class="modal-form__input"
                 type="email"
                 name="email"
                 id="user_email"
                 required
               />
-              <svg class="modal-form-icons" width="18px" height="18px">
+              <svg class="modal-form__icon" width="18px" height="18px">
                 <use
                   href="./images/icons/icons.svg#icon-email-black-18dp-1"
                 ></use>
               </svg>
             </span>
           </label>
-          <label class="modal-label" for="user_comment">
+          <label class="modal-form__label" for="user_comment">
             Komenatrz
             <textarea
-              class="modal-field-comment"
+              class="modal-form__comment-field"
               name="feedback"
               id="user_comment"
               placeholder="Wprowadź tekst"
@@ -765,28 +764,28 @@
               maxlength="1000"
             ></textarea>
           </label>
-          <div class="terms-field">
+          <div class="checkbox">
             <input
-              class="checkbox"
+              class="checkbox__content"
               id="check"
               type="checkbox"
               name="terms"
               value="terms"
               required
             />
-            <label class="modal-checkbox" for="check">
-              <svg class="icon-checkbox" width="11px" height="8px">
+            <label class="checkbox__field" for="check">
+              <svg class="checkbox__icon" width="11px" height="8px">
                 <use href="./images/icons/icons.svg#icon-Vector-1"></use>
               </svg>
               Oświadczam iż akceptuję
-              <a class="terms-link" href="">Regulamin</a> i<a
-                class="terms-link"
+              <a class="checkbox__link" href="">Regulamin</a> i<a
+                class="checkbox__link"
                 href="#"
                 >Politykę Prywatności.</a
               >
             </label>
           </div>
-          <button class="modal-button" type="submit">Wyślij</button>
+          <button class="modal-form__button" type="submit">Wyślij</button>
         </form>
       </div>
     </div>
