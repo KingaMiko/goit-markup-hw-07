@@ -247,31 +247,17 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
   padding-bottom: 0px;
 }
 
-.container-subsection {
+.advantages {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  padding-left: 0;
 }
 
-.subsection-element {
+.advantages__item {
   width: 270px;
 }
 
-.subsection-element:first-child {
-  margin-left: 0;
-}
-
-.subsection-title {
-  color: var(--header-text-color);
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-
-.ouradvantages-icons {
+.advantages-component {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -281,7 +267,16 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
   margin-bottom: 30px;
 }
 
-.ouradvantages-icons-item {
+.advantages-component__title {
+  color: var(--header-text-color);
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.advantages-component__icon {
   display: block;
   align-items: center;
   align-content: center;
