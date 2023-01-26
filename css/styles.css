@@ -677,14 +677,14 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
   z-index: 1;
 }
 
-.pf-button-container {
+.button-filters {
   display: flex;
   justify-content: center;
   margin-bottom: 56px;
   margin-top: 82px;
 }
 
-.pf-button {
+.button-filters__button {
   font-family: "Roboto", sans-serif;
   color: var(--header-text-color);
   font-weight: 500;
@@ -704,9 +704,9 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.pf-button:hover,
-.pf-button:focus,
-.pf-button:active {
+.button-filters__button:hover,
+.button-filters__button:focus,
+.button-filters__button:active {
   background-color: var(--accent-color);
   color: #ffffff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -718,31 +718,31 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
   flex-wrap: wrap;
 }
 
-.portfolio-flex-element {
+.work {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.work:hover {
+.work__item:hover {
   cursor: pointer;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.work {
+.work__item {
   position: relative;
   overflow: hidden;
 }
 
-.work-description {
+.work__example {
   padding: 20px 24px;
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
 
-.component {
+.work__component {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -751,23 +751,23 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
   margin-bottom: 4px;
 }
 
-.component-type {
+.work__description {
   font-size: 16px;
   line-height: 2;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 /* work box overlay */
-.work-box {
+.work__box {
   position: relative;
   overflow: hidden;
 }
 
-.work:hover .work-overlay {
+.work__item:hover .work__overlay {
   transform: translateY(0);
 }
 
-.work-overlay {
+.work__overlay {
   position: absolute;
   top: 0;
   left: 0;
