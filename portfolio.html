@@ -269,20 +269,20 @@
         </div>
       </section>
     </main>
+    <!-- footer -->
     <footer class="footer">
-      <!-- contact -->
       <div class="container">
-        <div class="footer-container">
+        <div class="footer__container">
           <div class="adress-footer">
-            <div class="logo-footer">
+            <div class="footer__logo">
               <a class="logo" href="./index.html">
-                <span class="logo-web">Web</span>
-                <span class="logo-web-footer">Studio</span>
+                <span class="logo--webcolor">Web</span>
+                <span class="footer__logo--color">Studio</span>
               </a>
             </div>
             <address>
               <ul class="adress">
-                <li class="adress-data">
+                <li class="adress__item">
                   <a
                     href="https://goo.gl/maps/BEcNkfG4Pcsb5MSL9"
                     class="link adress-footer"
@@ -291,13 +291,15 @@
                     >m. Warszawa, Aleje Jerozolimskie 21</a
                   >
                 </li>
-                <li class="adress-data">
-                  <a href="mailto:info@example.com" class="link contact-footer"
+                <li class="adress__item">
+                  <a
+                    href="mailto:info@example.com"
+                    class="link adress__item--contact"
                     >info@example.com</a
                   >
                 </li>
-                <li class="adress-data">
-                  <a href="tel:+48111111111" class="link contact-footer"
+                <li class="adress__item">
+                  <a href="tel:+48111111111" class="link adress__item--contact"
                     >+48 111 111 111</a
                   >
                 </li>
@@ -305,80 +307,83 @@
             </address>
           </div>
           <!--join us-->
-          <div>
-            <h3 class="joinus-title">dołącz do nas</h3>
-            <ul class="joinus-list">
-              <li class="joinus-item">
+          <div class="joinus">
+            <h3 class="joinus__title">dołącz do nas</h3>
+            <ul class="joinus__list">
+              <li class="joinus__item">
                 <a
-                  class="joinus-link"
+                  class="joinus__link"
                   href="https://www.instagram.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Instragram Icon"
                 >
-                  <svg class="joinus-icon">
+                  <svg class="joinus__icon">
                     <use href="./images/icons/icons.svg#icon-instagram-2"></use>
                   </svg>
                 </a>
               </li>
-              <li class="joinus-item">
+              <li class="joinus__item">
                 <a
-                  class="joinus-link"
+                  class="joinus__link"
                   href="https://www.twitter.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Twitter Icon"
                 >
-                  <svg class="joinus-icon">
+                  <svg class="joinus__icon">
                     <use href="./images/icons/icons.svg#icon-twitter-1"></use>
                   </svg>
                 </a>
               </li>
-              <li class="joinus-item">
+              <li class="joinus__item">
                 <a
-                  class="joinus-link"
+                  class="joinus__link"
                   href="https://www.facebook.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Facebook Icon"
                 >
-                  <svg class="joinus-icon">
+                  <svg class="joinus__icon">
                     <use href="./images/icons/icons.svg#icon-facebook-1"></use>
                   </svg>
                 </a>
               </li>
-              <li class="joinus-item">
+              <li class="joinus__item">
                 <a
-                  class="joinus-link"
+                  class="joinus__link"
                   href="https://www.linkedin.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Linkedin Icon"
                 >
-                  <svg class="joinus-icon">
+                  <svg class="joinus__icon">
                     <use href="./images/icons/icons.svg#icon-linkedin-1"></use>
                   </svg>
                 </a>
               </li>
             </ul>
           </div>
+
           <!-- newsletter -->
+
           <div>
             <form class="newsletter-form">
-              <label class="newsletter-label" for="user_email"
+              <label class="newsletter-form__label" for="newsletter_email"
                 >Zapisz się do newslettera</label
               >
-              <div class="signup-field">
+              <div class="newsletter-form__field">
                 <input
-                  class="signup-input"
+                  class="newsletter-form__input"
                   type="email"
                   name="email"
-                  id="user_email"
+                  id="newsletter_email"
                   placeholder="E-mail"
                 />
-                <button class="signup-button" type="submit">
+
+                <button class="newsletter-form__button" type="submit">
                   Zapisz się
-                  <svg class="signup-icon" width="24px" height="24px">
+                  <svg class="newsletter-form__icon" width="24px" height="24px">
                     <use href="./images/icons/icons.svg#icon-icon-send"></use>
                   </svg>
                 </button>
