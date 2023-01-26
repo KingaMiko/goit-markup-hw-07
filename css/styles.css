@@ -394,10 +394,6 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link:last-child {
-  margin-right: 0px;
-}
-
 .team-link {
   display: flex;
   justify-content: center;
@@ -409,6 +405,10 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-link:last-child {
+  margin-right: 0px;
 }
 
 .team-link:hover,
