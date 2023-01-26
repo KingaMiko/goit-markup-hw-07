@@ -289,17 +289,17 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
 
 /* what we do*/
 
-.whatwedo-list {
+.whatwedo {
   display: flex;
   justify-content: center;
 }
 
-.whatwedo-item {
+.whatwedo__item {
   margin-right: 30px;
   position: relative;
 }
 
-.whatwedo-item:last-child {
+.whatwedo__item:last-child {
   margin-right: 0px;
 }
 
@@ -313,7 +313,7 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
   margin-bottom: 50px;
 }
 
-.whatwedo-label {
+.whatwedo-layer {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -325,7 +325,7 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
   justify-content: center;
 }
 
-.label-text {
+.whatwedo-layer__description {
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
