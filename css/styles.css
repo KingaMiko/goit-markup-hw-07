@@ -199,7 +199,7 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
   background-color: var(--secondary-bgd-color);
 }
 
-.hero-header {
+.hero__title {
   max-width: 696px;
   text-align: center;
   color: var(--secondary-text-color);
@@ -212,7 +212,7 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
   margin-bottom: 30px;
 }
 
-.hero-button {
+.hero__button {
   font-family: inherit;
   font-size: 16px;
   font-weight: 700;
