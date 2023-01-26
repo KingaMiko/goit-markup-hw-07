@@ -58,7 +58,7 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
   margin-right: auto;
 }
 
-.main-menu {
+.page-header__container {
   display: flex;
   align-items: center;
 }
@@ -68,7 +68,7 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
   padding-bottom: 94px;
 }
 
-.header-index {
+.page-header {
   border-bottom: 1px solid rgba(236, 236, 236, 1);
   position: fixed;
   top: 0;
@@ -99,34 +99,34 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
 
 /* navigation */
 
-.site-nav {
+.header-menu {
   display: flex;
   margin-left: 93px;
 }
 
-.site-nav .nav-menu:not(:last-child) {
+.header-menu .header-menu__item:not(:last-child) {
   margin-right: 46px;
 }
 
-.nav-menu {
+.header-menu__item {
   color: var(--header-text-color);
   font-weight: 500;
   line-height: 1.17;
   letter-spacing: 0.02em;
 }
 
-.nav-menu-link {
+.header-menu__link {
   display: block;
   position: relative;
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
-.nav-menu-link--active {
+.header-menu__link--active {
   color: var(--accent-color);
 }
 
-.nav-menu-link--active::after {
+.header-menu__link--active::after {
   content: "";
   position: absolute;
   left: 0;
@@ -137,16 +137,16 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
   border-radius: 2px;
 }
 
-.site-nav-contact {
+.contact {
   display: flex;
   margin-left: auto;
 }
 
-.site-nav-contact .contact-nav:not(:last-child) {
+.contact .contact__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.contact-menu {
+.contact__link {
   display: flex;
   align-items: center;
   color: var(--primary-text-color);
@@ -155,25 +155,25 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
   letter-spacing: 0.02em;
 }
 
-.icon-envelope {
+.contact__icon-envelope {
   margin-right: 10px;
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-smartphone {
+.contact__icon-smartphone {
   margin-right: 10px;
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-menu:hover .icon-envelope,
-.contact-menu:focus .icon-envelope {
+.contact__link:hover .contact__icon-envelope,
+.contact__link:focus .contact__icon-envelope {
   fill: var(--accent-color);
 }
 
-.contact-menu:hover .icon-smartphone,
-.contact-menu:focus .icon-smartphone {
+.contact__link:hover .contact__icon-smartphone,
+.contact__link:focus .contact__icon-smartphone {
   fill: var(--accent-color);
 }
 
