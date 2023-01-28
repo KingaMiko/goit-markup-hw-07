@@ -11,8 +11,8 @@
   align-items: center;
   position: fixed;
   z-index: 1;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity var(--transition-standard),
+    visibility var(--transition-standard);
 }
 
 .is-hidden {
@@ -79,8 +79,8 @@
     border: 1px solid #21212133;
     border-radius: 4px;
     padding-left: 40px;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border var(--transition-standard);
+    transition: outline var(--transition-standard);
   }
   &_input:focus-within {
     border: 1px solid var(--accent-color);
@@ -88,15 +88,16 @@
   }
   &__input:hover {
     border: 1px solid var(--accent-color);
+    outline: 1px solid var(--accent-color);
     cursor: pointer;
   }
   &__icon {
     fill: var(--header-text-color);
-    position: absolute;
-    top: 0;
-    left: 15px;
+    position: relative;
+    top: -29px;
+    left: 12px;
     display: inline-block;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill var(--transition-standard);
   }
   &__label:focus-within .modal-form__icon {
     fill: var(--accent-color);
@@ -113,8 +114,8 @@
     border-radius: 4px;
     padding: 12px 16px;
     margin-bottom: 20px;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border var(--transition-standard);
+    transition: outline var(--transition-standard);
   }
   &__comment-field:focus-within {
     border: 1px solid var(--accent-color);
@@ -145,7 +146,7 @@
     padding: 10px 76px;
     margin: 0px auto;
     margin-top: 30px;
-    transition: box-shadow 5250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: box-shadow var(--transition-standard);
   }
   &__button:hover,
   &__button:focus,
@@ -204,11 +205,11 @@
     color: var(--accent-color);
     cursor: pointer;
     margin-left: 4px;
-    transition: font-weight 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: font-weight var(--transition-standard);
   }
   &__link:focus,
   &__link:hover,
   &__link:active {
-    font-weight: 500;
+    font-weight: 450;
   }
 }
