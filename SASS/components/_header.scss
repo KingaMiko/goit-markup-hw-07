@@ -70,9 +70,7 @@
 .contact {
   display: flex;
   margin-left: auto;
-  &.contact__item:not(:last-child) {
-    margin-right: 50px;
-  }
+  gap: 50px;
   &__link {
     display: flex;
     align-items: center;
