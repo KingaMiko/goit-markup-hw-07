@@ -7,6 +7,7 @@
   --secondary-bgd-color: #2f303a;
   --third-bgd-color: #f5f4fa;
   --transition-standard: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --main-font-family: "Roboto", sans-serif;
 }
 
 p,
@@ -27,7 +28,7 @@ img {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font-family);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -609,7 +610,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   text-transform: uppercase;
-  font-family: Roboto;
+  font-family: var(--main-font-family);
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
@@ -761,7 +762,7 @@ body {
   width: 448px;
   height: 23px;
   text-align: center;
-  font-family: Roboto;
+  font-family: var(--main-font-family);
   font-size: 20px;
   font-weight: 700;
   line-height: 1.15;
@@ -1007,7 +1008,7 @@ body {
   width: 448px;
   height: 23px;
   text-align: center;
-  font-family: Roboto;
+  font-family: var(--main-font-family);
   font-size: 20px;
   font-weight: 700;
   line-height: 1.15;
@@ -1267,7 +1268,7 @@ body {
   margin-top: 82px;
 }
 .button-filters__button {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font-family);
   color: var(--header-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -1377,7 +1378,7 @@ body {
   margin-top: 82px;
 }
 .button-filters__button {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font-family);
   color: var(--header-text-color);
   font-weight: 500;
   font-size: 16px;
